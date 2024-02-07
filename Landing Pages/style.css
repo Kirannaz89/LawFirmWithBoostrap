@@ -1,0 +1,385 @@
+x*
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body
+{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+#navbar-sec
+{
+    display: flex;
+    justify-content: space-between;
+    min-height: 60px;
+    background: gray;
+}
+.nav-logo
+{
+    max-width: 250px;
+}
+.nav-logo img
+{
+    width: 100%;
+}
+#check
+{
+    display: none;
+}
+.checkbtn
+{
+    float: right;
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: 1px;
+    margin-right: 40px;
+    display: none;
+}
+.nav-menu ul li
+{
+   display: inline-block;
+   margin-top: 20px;
+   padding: 0px 10px;
+}
+.nav-menu ul li a
+{
+    padding: 10px 15px;
+    color: #ffffff;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.nav-menu ul li a:hover
+{
+    background: rgb(66, 65, 65);
+    border-radius: 7px;
+}
+.nav-btn button 
+{
+    padding: 20px 80px;
+    border: none;
+    background: white;
+}
+#header
+{
+    height: auto;
+    background-image: linear-gradient(rgba(4,15,30,0.7),rgba(4,15,30,0.7)),url('images/column3-1920x1280.jpeg');
+    background-size: cover;
+}
+#header h1
+{
+    font-size: 40px;
+}
+.heading-text h2
+{
+    font-weight: bold;
+    font-size: 4rem;
+    word-wrap: break-word;
+}
+
+.text-sec
+{
+    display: flex;
+    justify-content: space-between;
+} 
+#header .btn button
+{
+    border: 2px solid gray;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+}
+#header .btn1 button
+{
+    border: 2px solid gray;
+    color: #ffffff;
+    font-weight: bold;
+}
+.image1
+{
+    height: 34vh;
+    width: 100%;
+    background-image: url("images/attorney5.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+.image1 p
+{
+    font-size: 14px;
+}
+.image1 button
+{
+    padding: 3px 10px;
+    border-radius: 2px solid #ffffff;
+    border-radius: 50px;
+    border: none;
+}
+.image1 p
+{
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.text-sec button
+{
+    padding: 10px 17px;
+    margin: 10px 0px;
+    border-radius: 50px;
+    border: none;
+    background: transparent;
+    border: 2px solid black;
+}
+.card-sec .card{
+    transition: 0.4s;
+}
+.card-sec .card:hover{
+    box-shadow: 0px 0px 8px rgb(0, 0, 0.4);
+}
+.card-sec .btn
+{
+    display: flex;
+    justify-content: center;
+}
+.card-sec .btn button
+{
+    border-radius: 50px;
+    background: transparent;
+}
+#Team-member .card
+{
+   transition: 0.4s;
+}
+#Team-member .card:hover
+{
+    box-shadow: 0px 0px 8px rgb(0, 0, 0.4);
+}
+#pricing-sec
+{
+    background-image: url("images/attorney30.jpeg");
+    height: auto;
+    background-position: center;
+    background-size: cover;
+}
+.card-body button
+{
+    border-radius: 50px;
+    background: transparent;
+    border: 2px solid grey;
+}
+.input-field input
+{
+    width: 100%;
+    border-radius: 50px;
+    padding: 8px 20px;
+    border: none;
+    background-color: rgb(235, 236, 236);
+    margin-bottom: 25px;
+}
+.input-field .message-box input
+{
+   text-align: start;
+   height: auto;
+   padding-bottom: 50%;
+   border-radius: 20px;
+}
+.input-field button
+{
+    border-radius: 20px;
+    font-weight: bold;
+    background: transparent;
+}
+#Testimonials
+{
+    background: rgb(235, 236, 236);
+}
+#Testimonials h3
+{
+    text-align: left;
+    max-width: 600px;
+    position: relative;
+}
+#Testimonials h3:before
+{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #e8ca33;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+#Testimonials button
+{
+    border: none;
+    border: 2px solid gray;
+}
+#contact-sec i
+{
+    font-size: 30px;
+    margin-top: 20px;
+    padding-bottom: 16px;
+    background: transparent;
+    border: 2p solid black;
+    border: none;
+}
+#contact-sec .icons i
+{
+    font-size: 15px;
+}
+#footer-sidebar
+{
+    background: rgb(74, 73, 73);
+}
+#footer-sidebar .icons i
+{
+    color: #ffffff;
+}
+#footer-sidebar h1
+{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 25px;
+}
+#footer-sidebar p
+{
+    color: #ffffff;
+}
+#footer-sidebar button
+{
+    border-radius: 50px;
+    background: grey;
+    border: none;
+    color: #ffffff;
+    max-width: 400px;
+    font-size: 14px;
+}
+#Footer
+{
+    background: black;
+}
+@media  (max-width: 1024px) {
+    .about-text
+    {
+        padding-top: 0px;
+    }
+    .about-text p
+    {
+        font-size: 12px;
+    }
+    #client-sec h4
+    {
+        margin-right: 15rem;
+    }
+    #client-sec p
+    {
+        margin-right: 6rem;
+    }
+    .input-field .message-box input
+    {
+        padding-bottom: 60%;
+    }
+}
+@media  (max-width: 992px) {
+    #client-sec h4{
+        margin-right: 10rem;
+        font-size: 18px;
+        margin-top: 15px;
+    }
+    #client-sec p
+    {
+        margin-right: 5rem;
+        font-size: 24px;
+    }
+    .input-field .message-box input
+    {
+        padding-bottom: 80%;
+    }
+}
+@media (max-width: 768px)
+{
+    .nav-logo
+    {
+        max-width: 200px;
+        margin-top: 10px;
+    }
+    .nav-menu ul li
+    {
+        display: none;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .checkbtn
+    {
+        display: block;
+    }
+    #header .btn1
+    {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    #header .btn1 button
+{
+    margin: 0px 10px;
+} 
+.heading-text h2
+{
+    font-size: 3rem;
+}
+    .text-sec
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-text 
+    {
+        padding-left: 0px;
+    }
+    .about-text p
+{
+    font-size: 9px;
+}
+#client-sec h4
+{
+    text-align: center;
+    margin-right: 0px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+#client-sec p
+{
+    margin-right: 0px;
+    font-size: 20px;
+}
+#contact-sec h3
+{
+    padding-top: 30px;
+}
+#Footer{
+    text-align: center;
+}
+#Footer p{
+    font-size: 10px;
+}
+}
+
+
+@media (max-width: 500px)
+{
+    .member-data
+    {
+      text-align: center;
+    }
+    #Testimonials h3
+    {
+        font-size: 20px;
+    }
+}
